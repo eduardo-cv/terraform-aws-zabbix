@@ -26,7 +26,7 @@ locals {
 
   ec2_instance_security_group_ids = [
     # Selecionar os security groups
-    aws_security_group.sg-bastian.id,
+    aws_security_group.sg_ssh.id,
     aws_security_group.sg_port_8080.id,
     aws_security_group.sg_port_zabbix.id,
   ]
