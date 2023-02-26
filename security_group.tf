@@ -110,8 +110,8 @@ resource "aws_security_group" "sg_port_zabbix" {
   name        = "sg_port_zabbix"
   ingress {
     protocol    = "tcp"
-    from_port   = 1050
-    to_port     = 1051
+    from_port   = 10050
+    to_port     = 10051
     cidr_blocks = ["0.0.0.0/0"]
   }
   egress {
