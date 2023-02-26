@@ -33,9 +33,6 @@ sudo nano /etc/zabbix/nginx.conf
 # descontar as linhas acima
 
 # Inicie o servidor Zabbix e os processos do agente
-sudo systemctl restart zabbix-server zabbix-agent2 nginx php8.1-fpm
-
-# Inicie o servidor Zabbix e os processos do agente
 sudo dpkg-reconfigure locales
 
 # usar o space do teclado para marcar
