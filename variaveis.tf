@@ -29,6 +29,7 @@ locals {
     aws_security_group.sg_ssh.id,
     aws_security_group.sg_port_8080.id,
     aws_security_group.sg_port_zabbix.id,
+    aws_security_group.sg_rds_mysql.id,
   ]
 }
 ##########################################################
