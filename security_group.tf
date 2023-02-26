@@ -107,7 +107,7 @@ resource "aws_security_group" "sg_rds_mysql" {
 resource "aws_security_group" "sg_port_zabbix" {
   description = "Acesso a porta 443"
   vpc_id      = module.vpc.vpc_id
-  name        = "sg_port_443"
+  name        = "sg_port_zabbix"
   ingress {
     protocol    = "tcp"
     from_port   = 1050
