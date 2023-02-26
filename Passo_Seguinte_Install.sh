@@ -17,6 +17,9 @@ zcat /usr/share/zabbix-sql-scripts/mysql/server.sql.gz | mysql -h rds -uadmin -p
 sudo nano /etc/zabbix/zabbix_server.conf
 
 # Editar as informações abaixo conforme seu ambiente:
+
+dbHost= colocar o rds aqui
+
 DBUser=admin    
 
 DBPassword=admin1234   
