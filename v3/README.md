@@ -29,10 +29,7 @@
  
 <h3>Evolução do Projeto</h3>
 
-<h4>Códificação em Módulo => ip-info-module </h4>
-
- melhor reaproveitamento do código
- 
+<h4>Constante</h4>
 
  
 **NOTA**: os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
