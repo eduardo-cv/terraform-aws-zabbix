@@ -1,6 +1,6 @@
 ##########################################################
 locals {
-  regiao-aws = "us-east-2"
+  regiao-aws = "us-east-1"
   # VPC  
   vpc-name                 = "vpc-zabbix"
   vpc-cidr-pref            = "10.1"
