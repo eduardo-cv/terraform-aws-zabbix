@@ -15,22 +15,6 @@ https://www.youtube.com/watch?v=0o7q9VjBqyY
 
 <h3>Laboratório - Zabbix e RDS</h3>
 
-1 - Criar um bucket na região da virginia Exemplo ""terraform-state-seu-projeto" e depois substituir no arquivo <b>"backend.tf"</b>
-
- - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
-
-2 - No arquivo <b>"variaveis.tf"</b> agora existe um parâmetro com o nome <b>"criar_rds"</b>
-
- - Quando definido <b>true</b> ira criar o recurso normalmente. 
- - Caso contrario defina <b>false</b> para não criar o recurso de rds.
- 
-3 - No arquivo <b>"variaveis.tf"</b> agora existe um parâmetro com o nome <b>"Volume_Size"</b>
-
- - Este se refere ao tamanho do disco que será criado na instancia.
- 
- 
-<h3>info Saídas</h3>
-
 
 **NOTA**: os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
 
