@@ -1,4 +1,4 @@
-# Pré-requisitos - [Terraform - AWS - Zabbix v2]
+# Pré-requisitos - [Terraform - AWS - Zabbix v3]
 
 1. Uma conta ativa da AWS.
 
@@ -17,12 +17,12 @@
 
  - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
 
-2 - No arquivo <b>"variaveis.tf"</b> agora existe um parâmetro com o nome <b>"criar_rds"</b>
+2 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"criar-rds"</b>
 
  - Quando definido <b>true</b> ira criar o recurso normalmente. 
  - Caso contrario defina <b>false</b> para não criar o recurso de rds.
  
-3 - No arquivo <b>"variaveis.tf"</b> agora existe um parâmetro com o nome <b>"Volume_Size"</b>
+3 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"volume-size"</b>
 
  - Este se refere ao tamanho do disco que será criado na instancia.
  
