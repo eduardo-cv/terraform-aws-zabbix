@@ -29,7 +29,7 @@
  
 <h3>Evolução do Projeto</h3>
 
-<h4>Códificação em Módulo</h4> ip-info-module 
+<h4>Códificação em Módulo => ip-info-module </h4>
 
  melhor reaproveitamento do código
  
