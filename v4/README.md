@@ -1,6 +1,6 @@
 # Pré-requisitos - [Terraform - AWS - Zabbix v4]
 
-<h3>Obs: O arquivo <b>"variaveis-config.tf"</b> e o lugar para vc configurar o que deseja para sua infra.<h3>
+<h3> Obs: O arquivo <b>"variaveis-config.tf"</b> e o lugar para vc configurar o que deseja para sua infra.<h3>
 
 1. Uma conta ativa da AWS.
 
