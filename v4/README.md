@@ -1,5 +1,7 @@
 # Pré-requisitos - [Terraform - AWS - Zabbix v4]
 
+<h3>Obs: O arquivo <b>"variaveis-config.tf"</b> e o lugar para vc configurar o que deseja para sua infra.<h3>
+
 1. Uma conta ativa da AWS.
 
 2. AWS Command Line Interface (AWS CLI) instalada e configurada com as permissões necessárias. Para obter mais informações sobre isso, consulte <a href="https://docs.aws.amazon.com/cli/latest/userguide/cli-chap-install.html" rel="nofollow" _istranslated="1">esta documentação</a>.</li>
@@ -30,7 +32,6 @@
 
  - Quando definido <b>true</b> ira criar o recurso normalmente. 
  - Caso contrario defina <b>false</b> para não criar o recurso de load balance. {Pendente falta alguns ajustes}
- 
  
 <h3>Evolução do Projeto</h3>
 
