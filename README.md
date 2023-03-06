@@ -15,7 +15,7 @@ https://www.youtube.com/watch?v=0o7q9VjBqyY
 - Eduardo C.
 - Gerlucio Moura
 
-<h3>Laboratório - Zabbix e RDS</h3>
+<h3>Laboratório - Zabbix e RDS e Load Balance </h3>
 
 
 **NOTA**: os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
