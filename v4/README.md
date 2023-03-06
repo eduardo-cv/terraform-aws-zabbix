@@ -13,7 +13,7 @@
 - Eduardo C.
 - Gerlucio Moura
 
-<h3>Laboratório - Zabbix e RDS</h3>
+<h3>Laboratório - Zabbix e RDS e Load Balance</h3>
 
 1 - Criar um bucket na região da virginia Exemplo ""terraform-state-seu-projeto" e depois substituir no arquivo <b>"main.tf"</b>
 
