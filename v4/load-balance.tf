@@ -77,7 +77,7 @@ resource "aws_lb_target_group" "alb_tg" {
   health_check {
     healthy_threshold = 2
     path              = "/"
-    matcher           = "200,301,302"
+    matcher           = "200,301,302,403"
   }
   stickiness {
     cookie_duration = 3600
