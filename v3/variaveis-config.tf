@@ -9,7 +9,7 @@ locals {
   vpc_public_subnet_count  = 2
   vpc_enable_nat_gateway   = false # Colocar false pelo motivo de cobrança da aws
   #  Config.   
-  criar_rds          = true
+  criar_rds          = false
   criar_load_balance = false
 
   elb_name = "zabbix"
