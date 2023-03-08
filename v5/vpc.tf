@@ -12,6 +12,3 @@ module "vpc" {
   enable_nat_gateway = false # Colocar false pelo motivo de cobrança da aws
 }
 ##########################################################
-
-
-
