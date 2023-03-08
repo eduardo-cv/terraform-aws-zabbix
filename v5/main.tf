@@ -13,7 +13,7 @@ terraform {
   # Remote-State
   backend "s3" {
     region  = "us-east-1"
-    bucket  = "terraform-state-zabbix" # Trocar aqui pelo seu
+    bucket  = "terraform-state-zabbix" # Trocar aqui pelo seu bucket
     key     = "dev/v5/zabbix/terraform.tfstate"
     encrypt = true
   }
