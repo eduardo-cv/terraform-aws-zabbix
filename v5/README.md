@@ -37,7 +37,7 @@
 
 <h4>Adicionado load balance - 06/03/2023</h4>
 
-<h4>Ajustes melhorias e Correções - 08/03/2023</h4>
+<h4>Ajustes Melhorias e Correções - 08/03/2023</h4>
 
 
 **NOTA**: Os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
