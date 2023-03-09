@@ -36,7 +36,7 @@
 
   ![image](https://user-images.githubusercontent.com/82802634/224081786-d3fb54d1-6566-43b9-a8f7-251bbb420d19.png)
  
-3 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"volume_size"</b>
+3 - No arquivo <b>"variaveis-config.tf"</b> em cada recurso existe um parâmetro com o nome <b>"volume_size"</b>
 
  - Este se refere ao tamanho do disco que será criado na instancia.
  
