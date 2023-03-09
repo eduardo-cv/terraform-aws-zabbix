@@ -39,6 +39,9 @@
 3 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"volume_size"</b>
 
  - Este se refere ao tamanho do disco que será criado na instancia.
+ 
+ ![image](https://user-images.githubusercontent.com/82802634/224083295-cfce0c7a-b951-4fc0-9870-ac49b76a46e1.png)
+
 
 4 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"create_lb"</b>
 
