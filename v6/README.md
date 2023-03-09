@@ -32,9 +32,7 @@
  
   ![image](https://user-images.githubusercontent.com/82802634/224080868-5b1ef003-1f62-4ab3-90aa-8cbc314fe163.png)
 
-
- - Quando definido <b>true</b> ira criar o recurso normalmente. 
- - Caso contrario defina <b>false</b> para não criar o recurso de rds.
+  ![image](https://user-images.githubusercontent.com/82802634/224081786-d3fb54d1-6566-43b9-a8f7-251bbb420d19.png)
  
 3 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"volume_size"</b>
 
