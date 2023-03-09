@@ -18,6 +18,8 @@
 1 - Criar um bucket na região da virginia Exemplo ""terraform-state-seu-projeto" e depois substituir no arquivo <b>"main.tf"</b>
 
  - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
+ 
+   ![image](https://user-images.githubusercontent.com/82802634/224082373-a11cbafa-4abc-47be-998b-0e6dff9fed2d.png)
 
 2 - No arquivo <b>"variaveis-config.tf"</b>
 
