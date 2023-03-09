@@ -19,7 +19,7 @@
 
  - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
  
-![image](https://user-images.githubusercontent.com/82802634/224085071-3a56a97b-04a9-4bd4-b459-4b20d3f13875.png)
+![image](https://user-images.githubusercontent.com/82802634/224085637-42529fb2-54ae-4ec0-88c1-1ba0ba3b062b.png)
 
 2 - No arquivo <b>"variaveis-config.tf"</b>
 
