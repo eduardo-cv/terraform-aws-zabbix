@@ -48,16 +48,7 @@
  - Quando definido <b>true</b> ira criar o recurso normalmente. 
  - Caso contrario defina <b>false</b> para não criar o recurso de load balance.
  
-<h3>Evolução do Projeto</h3>
-
-<h4>Adicionado load balance - 06/03/2023</h4>
-
-<h4>Ajustes Melhorias e Correções - 08/03/2023</h4>
-
-<h4>Adicionado o grafana - 09/03/2023</h4>
-
-Espero que tenha ajudado a entender o modelo que serve como base para criar sua infra.
-
+<h3>Espero que tenha ajudado a entender o modelo que serve como base para criar sua infra.</h3>
 
 **NOTA**: Os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
 
