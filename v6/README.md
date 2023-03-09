@@ -19,7 +19,7 @@
 
  - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
  
-![image](https://user-images.githubusercontent.com/82802634/224082373-a11cbafa-4abc-47be-998b-0e6dff9fed2d.png)
+![image](https://user-images.githubusercontent.com/82802634/224085071-3a56a97b-04a9-4bd4-b459-4b20d3f13875.png)
 
 2 - No arquivo <b>"variaveis-config.tf"</b>
 
@@ -42,12 +42,6 @@
  
  ![image](https://user-images.githubusercontent.com/82802634/224083295-cfce0c7a-b951-4fc0-9870-ac49b76a46e1.png)
 
-
-4 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"create_lb"</b>
-
- - Quando definido <b>true</b> ira criar o recurso normalmente. 
- - Caso contrario defina <b>false</b> para não criar o recurso de load balance.
- 
 <h3>Espero que tenha ajudado a entender o modelo que serve como base para criar sua infra.</h3>
 
 **NOTA**: Os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
