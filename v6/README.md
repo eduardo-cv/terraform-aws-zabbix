@@ -41,7 +41,7 @@
 
 <h4>Adicionado o grafana - 09/03/2023</h4>
 
-**Espero que tenha ajudado a entender o modelo que serve como base para criar sua infra.**
+Espero que tenha ajudado a entender o modelo que serve como base para criar sua infra.
 
 
 **NOTA**: Os recursos criados podem gerar em custos em sua conta da AWS. Considere excluir os recursos criados assim que os testes forem concluídos. Para obter mais informações, consulte [Definição de preço da AWS](https://aws.amazon.com/pricing/).
