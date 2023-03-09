@@ -21,10 +21,10 @@
 
 2 - No arquivo <b>"variaveis-config.tf"</b>
 
-![image](https://user-images.githubusercontent.com/82802634/224078811-aeb748e2-8035-413e-8c4f-71daecf9ef5b.png)
+  ![image](https://user-images.githubusercontent.com/82802634/224080016-c96b4174-9f6e-4092-a490-3d538a359c52.png)
  
  
- ![image](https://user-images.githubusercontent.com/82802634/224079488-81c24d33-dc7f-4670-925b-2f575d6822a5.png)
+  ![image](https://user-images.githubusercontent.com/82802634/224079488-81c24d33-dc7f-4670-925b-2f575d6822a5.png)
 
 
 
