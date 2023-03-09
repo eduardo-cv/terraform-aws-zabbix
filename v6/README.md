@@ -26,6 +26,11 @@
  
   ![image](https://user-images.githubusercontent.com/82802634/224079488-81c24d33-dc7f-4670-925b-2f575d6822a5.png)
 
+    zabbix_number  =  Quant de instancias deseja criar.
+    web_number     =  Quant de instancias deseja criar.
+    grafana_number =  Quant de instancias deseja criar.
+ 
+  ![image](https://user-images.githubusercontent.com/82802634/224080868-5b1ef003-1f62-4ab3-90aa-8cbc314fe163.png)
 
 
  - Quando definido <b>true</b> ira criar o recurso normalmente. 
