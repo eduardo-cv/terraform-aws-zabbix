@@ -19,7 +19,10 @@
 
  - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
 
-2 - No arquivo <b>"variaveis-config.tf"</b> agora existe um parâmetro com o nome <b>"create_rds"</b>
+2 - No arquivo <b>"variaveis-config.tf"</b>
+
+![image](https://user-images.githubusercontent.com/82802634/224078811-aeb748e2-8035-413e-8c4f-71daecf9ef5b.png)
+
 
  - Quando definido <b>true</b> ira criar o recurso normalmente. 
  - Caso contrario defina <b>false</b> para não criar o recurso de rds.
