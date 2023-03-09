@@ -15,7 +15,7 @@
 
 <h3>Laboratório - Zabbix e RDS</h3>
 
-1 - Criar um bucket na região da virginia Exemplo ""terraform-state-seu-projeto" e depois substituir no arquivo <b>"main.tf"</b>
+1 - Criar um bucket na região da virginia Exemplo <b>"terraform-state-seu-projeto"</b> e depois substituir no arquivo <b>"main.tf"</b>
 
  - A criaçao do mesmo pode ser no painel ou via cli. O motivo da criação e gravar o estado da infra no bucket.
  
