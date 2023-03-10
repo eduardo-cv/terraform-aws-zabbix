@@ -3,7 +3,7 @@
 ##########################################################
 output "instancia_zabbix" {
   value = {
-    for i, aws_instance in aws_instance.zabbix-server : "zabbix-server-${i + 1}" => {
+    for i, aws_instance in aws_instance.zabbix-server : "zabbix-server-${format("%03d", "${i + 1}")}" => {
       ami_id            = aws_instance.ami
       ami_descricao     = local.ec2_zabbix_server.ami.description
       availability_zone = aws_instance.availability_zone
@@ -18,9 +18,9 @@ output "instancia_zabbix" {
 ##########################################################
 #  Saida de dados -> Instancias Zabbix
 ##########################################################
-output "instancia_web" {
+output "instancia_web" {   
   value = {
-    for i, aws_instance in aws_instance.web : "web-${i + 1}" => {
+    for i, aws_instance in aws_instance.web : "web-${format("%03d", "${i + 1}")}" => {
       ami_id            = aws_instance.ami
       ami_descricao     = local.ec2_web.ami.description
       availability_zone = aws_instance.availability_zone
@@ -37,7 +37,7 @@ output "instancia_web" {
 ##########################################################
 output "instancia_grafana" {
   value = {
-    for i, aws_instance in aws_instance.grafana : "grafana-${i + 1}" => {
+    for i, aws_instance in aws_instance.grafana : "grafana-${format("%03d", "${i + 1}")}" => {
       ami_id            = aws_instance.ami
       ami_descricao     = local.ec2_grafana.ami.description
       availability_zone = aws_instance.availability_zone
