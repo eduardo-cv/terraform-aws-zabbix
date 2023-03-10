@@ -1,7 +1,7 @@
 ##########################################################
 #  Saida de dados -> Instancias WEB
 ##########################################################
-output "instancia_web" {
+output "instancia_zabbix" {
   value = {
     for i, aws_instance in aws_instance.zabbix-server : "zabbix-server-${i + 1}" => {
       ami_id            = aws_instance.ami
@@ -18,7 +18,7 @@ output "instancia_web" {
 ##########################################################
 #  Saida de dados -> Instancias Zabbix
 ##########################################################
-output "instancia_zabbix" {
+output "instancia_web" {
   value = {
     for i, aws_instance in aws_instance.web : "web-${i + 1}" => {
       ami_id            = aws_instance.ami
